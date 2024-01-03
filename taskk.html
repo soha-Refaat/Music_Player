@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Music Player</title>
+   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" /> 
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    
+    <link href="css/Style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<header>
+    <i class="fa fa-caret-down fa-lg fa-2px" aria-hidden="true"></i>
+    <span>Web Music Player</span>
+    <i class="fa fa-ellipsis-h fa-lg fa-2px" aria-hidden="true"></i>
+</header>
+<div class="img-area">
+    <img src = "" alt="image">
+</div>
+ <div class="song-details">
+    <p class="name"></p>
+    <p class="artist"></p>
+ </div>
+ <div class="progres-area">
+    <div class="progres-bar">
+        <audio id="main-audio" src=""></audio>
+    </div>
+
+ <div class="song-timer">
+    <span class="current-timer">00:00</span>
+    <span class="max-duration">00:00</span>
+ </div>
+</div>
+<div class="controls">
+    <i id="repeat-plist" class="material-symbols-outlined" title="playlist looped">repeat</i>
+    <i id="prev" class="fa fa-step-backward" aria-hidden="true"></i>
+    <div class="play-pause">
+        <i class="material-symbols-outlined">play_arrow</i>
+    </div>
+    <i id="next" class="fa fa-step-forward" aria-hidden="true"></i>
+    <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+</div>
+</div>
+<script src="js/music.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
